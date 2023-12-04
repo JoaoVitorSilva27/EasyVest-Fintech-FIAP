@@ -40,3 +40,64 @@ nav {
 .sup{
     padding-left: 1vh;
 }
+
+main {
+    background-color: #FF4848;
+    max-width: 95vw;
+}
+
+.imgLogoG{
+    height: 30vh;
+    width: 15vw;
+}
+
+.textoApresentacao{
+    color: #0D0D0D;
+    padding-inline: 50px;
+}
+
+
+@media screen and (max-width: 600px){
+    .imgLogoG{
+        width: 50vw;
+        height: 30vh;
+    }
+
+    .textoApresentacao{
+        padding-inline: 10px;
+    }
+
+}
+
+@media screen and (min-width:601px) and (max-width: 900px){
+    .imgLogoG{
+        width: 30vw;
+        height: 30vh;
+    }
+}
+
+@media screen and (min-width:1320px){
+    .imgLogoG{
+        width: 20vw;
+        height: 20vh;
+    }
+}
+
+.botoesHome{
+    border: 0px;
+    background-color: #1f1f1f;
+    color: #FF4848;
+}
+
+footer{
+    background-color: #FF4848;
+   
+}
+
+.contfot{
+    gap: 25%; 
+}
+
+.textofot{
+    color: #0D0D0D;
+}
