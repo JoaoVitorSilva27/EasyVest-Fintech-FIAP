@@ -65,16 +65,13 @@ main {
 
     .textoApresentacao{
         padding-inline: 10px;
+        text-align: center;
     }
 
     .contfot{
         flex-direction: column;
         gap: none;
         justify-content: center;
-    }
-
-    .contfot2{
-        padding-top:3vh;
     }
 }
 
