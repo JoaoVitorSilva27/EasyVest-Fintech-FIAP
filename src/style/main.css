@@ -132,6 +132,18 @@ textarea::placeholder {
     padding-top: 2.5vh;
 }
 
+.imgPerf{
+    width: 15vw;
+    height: 30vh;
+
+}
+
+.biobox{
+    background-color: #0D0D0D;
+    color: #FF4848;
+    max-width: 400px;
+}
+
 @media screen and (max-width: 600px) {
     .imgLogoG {
         width: 50vw;
@@ -166,6 +178,15 @@ textarea::placeholder {
 
     .cadarea {
         padding-top: 5vh;
+    }
+
+    .imgPerf{
+        width: 45vw;
+        height: 30vh;
+    }
+
+    .biobox{
+        margin-bottom: 2rem;
     }
 
 }
