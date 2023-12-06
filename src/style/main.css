@@ -3,13 +3,21 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.Titulo {
-    color: #0D0D0D;
-}
-
 nav {
     margin: 1%;
     font-size: 20px;
+}
+
+.navbut{
+    background-color: #0D0D0D;
+    color: #FF4848;
+}
+
+.navh{
+    transition: all 0.3s;
+}
+.navh:hover{
+    transform: scale(1.1);
 }
 
 .navbar {
@@ -37,7 +45,7 @@ nav {
     padding-left: 1vh;
 }
 
-.sup{
+.sup {
     padding-left: 1vh;
 }
 
@@ -46,121 +54,154 @@ main {
     max-width: 95vw;
 }
 
-.imgLogoG{
+.imgLogoG {
     height: 30vh;
     width: 15vw;
 }
 
-.textoApresentacao{
+.textoApresentacao {
     color: #0D0D0D;
     padding-inline: 50px;
 }
 
-
-@media screen and (max-width: 600px){
-    .imgLogoG{
-        width: 50vw;
-        height: 30vh;
-    }
-
-    .textoApresentacao{
-        padding-inline: 10px;
-        text-align: center;
-    }
-
-    .contfot{
-        flex-direction: column;
-        gap: none;
-        justify-content: center;
-    }
-
-    .contcad{
-        flex-direction: column;
-        gap: none;
-        justify-content: center;
-        align-items: center;
-    }
-    .caditem{
-        padding-top: 2.5vh;
-    }
-    .cadarea{
-        padding-top: 5vh;
-    }
-    
-}
-
-@media screen and (min-width:601px) and (max-width: 900px){
-    .imgLogoG{
-        width: 30vw;
-        height: 30vh;
-    }
-}
-
-@media screen and (min-width:1320px){
-    .imgLogoG{
-        width: 20vw;
-        height: 20vh;
-    }
-}
-
-.botoesHome{
-    border: 0px;
-    background-color: #1f1f1f;
+.indextxt{
+    background-color: #0D0D0D;
     color: #FF4848;
 }
 
-footer{
+.botoesHome {
+    border: 0px;
+    background-color: #0D0D0D;
+    color: #FF4848;
+}
+
+footer {
     background-color: #FF4848;
-   
+
 }
 
-.contfot{
-    gap: 25%; 
+.contfot {
+    gap: 25%;
 }
 
-.textofot{
-    color: #0D0D0D;
+.textofot {
+    background-color: #0D0D0D;
+    color: #FF4848;
 }
 
-.contcad{
+.contcad {
     gap: 15%;
 }
 
-.mainh1{
+.mainh1 {
     background-color: #0D0D0D;
     color: #FF4848;
 }
 
-.labelcad{
+.labelcad {
     background-color: #0D0D0D;
     color: #FF4848;
 }
 
-.fotoperf{
+.fotoperf {
     padding-inline: 5vw;
 }
 
-.inputcad{
+.inputcad {
     background-color: #D9D9D9;
     border: 0px;
     border-radius: 10px;
 }
 
-.inputcad::placeholder{
+.inputcad::placeholder {
     text-align: center;
     font-size: large;
 }
 
-textarea::placeholder{
+textarea::placeholder {
     font-size: large;
 }
 
-.btncad{
+.btncad {
     border: 0;
     background-color: #0D0D0D;
     color: #FF4848;
 }
 
-.caditem{
+.caditem {
     padding-top: 2.5vh;
+}
+
+@media screen and (max-width: 600px) {
+    .imgLogoG {
+        width: 50vw;
+        height: 30vh;
+    }
+
+    .textoApresentacao {
+        padding-inline: 10px;
+        text-align: center;
+    }
+
+    .contfot {
+        flex-direction: column;
+        gap: none;
+        justify-content: center;
+    }
+
+    .redesfot {
+        margin-top: 1rem;
+    }
+
+    .contcad {
+        flex-direction: column;
+        gap: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caditem {
+        padding-top: 2.5vh;
+    }
+
+    .cadarea {
+        padding-top: 5vh;
+    }
+
+}
+
+@media screen and (min-width:601px) and (max-width: 900px) {
+    .imgLogoG {
+        width: 30vw;
+        height: 30vh;
+    }
+
+    .contcad {
+        flex-direction: column;
+        gap: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caditem {
+        padding-top: 2.5vh;
+    }
+
+    .cadarea {
+        padding-top: 5vh;
+    }
+}
+
+@media screen and (min-width:100px) {
+    .contcad{
+        gap: 10%;
+    }
+    
+}
+
+@media screen and (min-width:1320px) {
+    .imgLogoG {
+        width: 20vw;
+        height: 20vh;
+    }
 }
