@@ -144,6 +144,10 @@ textarea::placeholder {
     max-width: 400px;
 }
 
+.invbox{
+    gap: 25%;
+}
+
 @media screen and (max-width: 600px) {
     .imgLogoG {
         width: 50vw;
@@ -187,6 +191,13 @@ textarea::placeholder {
 
     .biobox{
         margin-bottom: 2rem;
+    }
+
+    .h1inv{
+        text-align: left;
+    }
+    .invbox{
+        gap: 15%;
     }
 
 }
