@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EasyVest | Investimentos disponíveis</title>
 
   <!--Bootstrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   <!--JS do Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+    defer></script>
 
   <!--FONTE-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Condensed:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
   <!--Arquivo css-->
   <link rel="stylesheet" href="../style/main.css">
@@ -37,7 +42,7 @@
         </button>
 
         <!--LOGO-->
-        <a href="../../index.html"><img class="navh navbar-brand rounded-circle imgLogo "
+        <a href="../../index.html" class="logomd"><img class="navh navbar-brand rounded-circle imgLogo "
             src="../imgs/Logos/Logo black fundo red aproximado.png"></a>
 
 
@@ -93,7 +98,55 @@
     <!--MENU (FIM)-->
   </header>
 
-  <main>
+  <main class="container-fluid rounded-3 mt-4 mx-auto">
+
+    <div class="fs-4 px-auto pb-3 pt-3 fw-medium textoApresentacao">
+      <h1 class="fs-3 rounded-2 p-1 mainh1 text-center">Investimentos disponíveis para você:</h1>
+
+      <div class="continv d-flex justify-content-around">
+        <div class="d-flex justify-content-center flex-column">
+          <div class="biobox p-2 rounded-2">
+            <h2 class=""><img src="../imgs/unnamed 1.png" class="imgfiap me-3">FIAP</h2>
+            <div class="d-flex justify-content-between align-items-center vlrinv">
+              <img src="../imgs/Group 21.png" alt="">
+              <div class="varibox rounded-4 p-1">R$12,34 <br> +1.23%</div>
+              <button class="fs-1 invbtn d-flex mx-4 navh">+</button>
+            </div>
+
+          </div>
+
+          <div class="biobox mt-3 p-2 rounded-2">
+            <h2 class=""><img src="../imgs/Microsoft_logo 1.png" class="imgfiap me-3">Microsoft</h2>
+            <div class="d-flex justify-content-between align-items-center vlrinv">
+              <img src="../imgs/Group 22.png" alt="">
+              <div class="varibox rounded-4 p-1">R$54,32 <br> +5.43%</div>
+              <button class="fs-1 invbtn d-flex mx-4 navh">+</button>
+            </div>
+          </div>
+
+          <div class="biobox mt-3 p-2 rounded-2">
+            <h2 class=""><img src="../imgs/download 1.png" class="imgfiap me-3">Americanas</h2>
+            <div class="d-flex justify-content-between align-items-center vlrinv">
+              <img src="../imgs/Group 23.png" alt="">
+              <div class="varibox variboxn rounded-4 p-1">R$1,23 <br> -9.87%</div>
+              <button class="fs-1 invbtn d-flex mx-4 navh">+</button>
+            </div>
+          </div>
+
+          <button class="invbtn rounded-2 mt-3 px-2 pt-2 navh">
+            <h2 class="mainh1">Ver mais...</h2>
+          </button>
+        </div>
+
+        <div class="invinfo rounded-2 p-3 text-center">
+          <h2 class="mainh1">Observação:</h2>
+          <span>Nossa plataforma pega informaçoes sobre você (de acordo com seu cadastro) e monta a lista de investimentos disponíveis. <br>
+          Caso haja algum erro ou deseje trocar as recomendações, sinta-se livre para entrar em contato com nosso suporte (presente no rodapé e menu lateral da pagina).  
+          </span>
+        </div>
+      </div>
+    </div>
+
 
   </main>
 
@@ -109,9 +162,9 @@
       <div class="redesfot textofot p-3 rounded-2">
         <span class="d-flex justify-content-center"> Nossas redes sociais <br></span>
         <span class="d-flex justify-content-center">
-          <img src="../imgs/skill-icons_instagram.png" class="p-1">
-          <img src="../imgs/skill-icons_twitter.png" class="p-1">
-          <img src="../imgs/devicon_linkedin.png" class="p-1">
+          <img src="../imgs/skill-icons_instagram.png" class="p-1 navh btn">
+          <img src="../imgs/skill-icons_twitter.png" class="p-1 navh btn">
+          <img src="../imgs/devicon_linkedin.png" class="p-1 navh btn">
         </span>
       </div>
     </div>

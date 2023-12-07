@@ -148,6 +148,36 @@ textarea::placeholder {
     gap: 25%;
 }
 
+.varibox{
+    margin-left: 3rem;
+    border: 1px solid green;
+    color: green;
+}
+
+.variboxn{
+    color:#FF4848;
+    border:1px solid #FF4848;
+}
+
+.invbtn{
+    border: 0px;
+    background-color: #0D0D0D;
+    color: #FF4848;
+}
+
+.invinfo{
+    background-color: #0D0D0D;
+    color: #FF4848;
+    max-width: 500px;
+    max-height: 50vh;
+}
+
+@media screen and (max-width: 400px) {
+    .logomd{
+        margin-left: 80%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .imgLogoG {
         width: 50vw;
@@ -200,6 +230,25 @@ textarea::placeholder {
         gap: 15%;
     }
 
+    .varibox{
+        margin-left: 5px;
+        margin-top: 1rem;
+    }
+
+    .vlrinv{
+        flex-direction: column;
+    }
+
+    .continv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .invinfo{
+        margin-top: 2rem;
+        max-height: 70vh;
+        font-size: large;
+    }
 }
 
 @media screen and (min-width:601px) and (max-width: 900px) {
